@@ -29,8 +29,8 @@ export default function Auth() {
   return (
     <>
       <div
-        className="flex items-start mb-2 mt-2 w-full gap-2 flex-col justify-center
-       pl-4 sm:pl-8 md:pl-12 lg:pl-24 xl:pl-40"
+        className="flex items-start mb-2 mt-2 w-full gap-2 flex-col justify-center pl-4 sm:pl-8 md:pl-12 lg:pl-24 xl:pl-40
+       "
       >
         <Image src="/outly.svg" alt="Outly Logo" width={200} height={200} />
       </div>
