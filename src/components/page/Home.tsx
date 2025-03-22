@@ -17,7 +17,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <div className="flex flex-col pb-4">
@@ -370,4 +370,5 @@ export default function Home() {
       </div>
     </>
   );
-}
+};
+export default Home;

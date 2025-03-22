@@ -1,9 +1,10 @@
 import Auth from "@/components/page/Auth";
 export const dynamic = "force-dynamic";
-export default function LoginPage() {
+const LoginPage = () => {
   return (
     <>
       <Auth />
     </>
   );
-}
+};
+export default LoginPage;

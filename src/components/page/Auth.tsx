@@ -13,7 +13,7 @@ import { usePathname } from "next/navigation";
 import { getAuthSchema } from "@/lib/Schemas/getAuthSchema";
 import Image from "next/image";
 
-export default function Auth() {
+const Auth = () => {
   const pathName = usePathname();
   const formSchema = getAuthSchema();
   const form = useForm<z.infer<typeof formSchema>>({
@@ -113,4 +113,5 @@ export default function Auth() {
       </div>
     </>
   );
-}
+};
+export default Auth;

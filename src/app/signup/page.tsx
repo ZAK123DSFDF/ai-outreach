@@ -1,9 +1,10 @@
 import Auth from "@/components/page/Auth";
 
-export default function SignupPage() {
+const SignupPage = () => {
   return (
     <>
       <Auth />
     </>
   );
-}
+};
+export default SignupPage;

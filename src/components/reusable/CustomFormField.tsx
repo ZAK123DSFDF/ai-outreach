@@ -22,7 +22,7 @@ interface CustomFormFieldProps {
   showPasswordToggle?: boolean;
 }
 
-export function CustomFormField({
+const CustomFormField = ({
   form,
   name,
   label,
@@ -30,7 +30,7 @@ export function CustomFormField({
   type = "text",
   link = false,
   showPasswordToggle = false,
-}: CustomFormFieldProps) {
+}: CustomFormFieldProps) => {
   const [showPassword, setShowPassword] = useState(false);
   return (
     <FormField
@@ -79,4 +79,5 @@ export function CustomFormField({
       )}
     />
   );
-}
+};
+export default CustomFormField;
